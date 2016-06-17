@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>ProKickz</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
@@ -14,7 +23,7 @@
 
 
 
-<div class="header">
+<header class="main-header">
     <section class="about-section">
         <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/FCOP4aXerdg', containment:'body',autoPlay:true, mute:true, startAt:43, opacity:2}"></a>
     </section>
@@ -23,17 +32,17 @@
             <img src="logo.png" width="250px" height="125px"></a>
         </div>
         <h1 class="logosign"></h1><!--заголовок для моего журнала-->
-        <div class="sociallinks">
+        <section class="sociallinks">
             <a class="social social-fb" href="http://facebook.com/" target="_blank"></a><a class="social social-ins" href="http://instagram.com/" target="_blank"></a><a class="social social-pn" href="http://pinterest.com/" target="_blank"></a><a class="social social-tw" href="http://twitter.com/" target="_blank"></a><a class="social social-yout" href="http://youtube.com/" target="_blank"></a>
-        </div>
+        </section>
         <div class="welcome"><span>WELCOME TO KICKZPRO</span><span>The only online store you will ever need for all your Basketball and Streetbal needs</span></div>
         <div class="shopinfo"><span>JB Superfly 2014</span><span>Super easy going play bbal  shoes based on the AIR MAX Nike technology concept with additional support and super easy fixation. </span></div>
-        <div class="mainbuybutton"><span>Buy now</span></div>
+        <div class="mainbuybutton"><span>Subscribe</span></div>
     </div>
-</div>
+</header>
 <div class="container">
-    <div class="content">
-        <div class="menu">
+    <main class="content">
+        <nav class="menu">
             <ul>
                 <li class="nav"><a href="#">Навигация</a>
                     <ul class="subnav">
@@ -47,7 +56,7 @@
                 </li>
 
             </ul>
-        </div>
+        </nav>
         <div class="news">
             <h2>New products</h2>
             <div class="newsblock"><a href=""><img src="catalog%20images/realmodels/lebron13/face.jpg" width="250px" height="230px"alt="shoes photo"><p>Nike Lebron XII Elite</p><p>15999</p></a></div>
@@ -86,9 +95,9 @@
 
 
 
-    </div>
+    </main>
 </div>
-<div class="footer">
+<footer class="main-footer">
     <div class="info">Category
         <ul>
             <li><a href="">Home</a></li>
@@ -135,7 +144,9 @@
     </div>
     <div class="info"><p>About US</p><p>Мы самый лучший ресурс на свете,смотрите и рассказывайте друзьям,смотрите, обсуждайте,!</p></div>
 
-</div>
+</footer>
+
+<script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 <script>$(function(){
     $(".player").mb_YTPlayer();
 });</script>
