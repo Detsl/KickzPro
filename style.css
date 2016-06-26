@@ -23,9 +23,9 @@ body > header > div > div.row {
 .welcome {
     background-color: black;
     color: white;
-    opacity: 0.7;
+    opacity: 0.9;
     font-size: 16px;
-    border-radius: 3px;
+
 }
 body > header > div > div.row > div.welcome.col-lg-4.col-md-4.col-sm-4.col-xs-4 > p {
     max-width: 340px;
@@ -117,7 +117,8 @@ body > header > div > div.row > div.sociallinks.col-lg-4>a:hover{
 body > main > div > nav {
     background-color: black;
     margin-left: 15px;
-    border-radius: 2px;
+    position: relative;
+    top: -17px;
 
 }
 body > main > div > nav > ul > li{
@@ -147,8 +148,59 @@ body > main > div > nav > ul > li> a:hover {
 }
 /* раздел с новостями */
 body > main > div > section {
-    border-bottom: 1px solid beige;
-    border-left: 1px solid beige ;
-    border-right: 1px solid beige;
-    border-radius: 2px;
+
+    
 }
+.videonews {
+    margin-top: 20px;
+}
+body > main > div > aside > span{
+    color: black;
+    font-size: large;
+
+}
+
+body > main > div > aside > div.brands.row{
+
+    margin-bottom: 30px;
+}
+body > main > div > aside > div.instagram.row{
+    margin-top: 30px;
+
+}
+body > main > div > aside > div.instagram.row > div>a {
+    display: inline-block;
+
+}
+body > main > div > aside > div.instagram.row > div>a:hover{
+    box-shadow: 0 0 6px black;
+}
+
+
+
+
+footer {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+.info {
+    margin-top: 30px;
+}
+.info>ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.info>ul>li>a
+{
+    color: white;
+}
+.info>ul>li>a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
