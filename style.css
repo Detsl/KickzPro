@@ -197,14 +197,16 @@ body > main > div > aside > div.instagram.row{
 }
 body > main > div > aside > div.instagram.row > div>a {
     display: inline-block;
+    background-color: white;
+
 
 }
 
-}
+
 /* задаём увилечение для картинок при наведении*/
 body > main > div > aside > div.instagram.row > div > a > img{
     display: block;
-    opacity: 1;
+    opacity: 0.8;
     -webkit-transform: scale(1,1);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 550ms;
@@ -213,7 +215,7 @@ body > main > div > aside > div.instagram.row > div > a > img{
     -moz-transition-duration: 550ms;
 }
 body > main > div > aside > div.instagram.row > div > a > img:hover{
-    opacity: .9;
+    opacity: 1;
     -webkit-transform: scale(1.11,1.17);
     -webkit-transition-timing-function: ease-out;
     -webkit-transition-duration: 300ms;
